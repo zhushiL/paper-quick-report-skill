@@ -14,7 +14,7 @@
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-git clone https://github.com/zhushiL/paper-quick-report.git "$HOME/.agents/skills/paper-quick-report"
+git clone https://github.com/zhushiL/paper-quick-report-skill.git "$HOME/.agents/skills/paper-quick-report"
 ```
 
 **项目内共享**可将 skill 目录放到目标项目的 `.agents/skills/paper-quick-report/` 下。安装后，`SKILL.md` 应直接位于 `paper-quick-report/` 目录内。如果 Codex 没有显示该 skill，可以重启后再试。[Codex 官方 skills 文档](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
